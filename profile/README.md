@@ -1,8 +1,8 @@
 <!--
-  Organisation profile README -> github.com/fadenstack/.github, path profile/README.md.
-  Everything in this folder goes into that repo's profile/ folder.
-  Assumes the core repo is transferred and renamed to fadenstack/fadenstack and the
-  MCP server repos keep their names. Banner source: brand/github-profile/banner.html.
+  Organisation profile README (github.com/fadenstack/.github, profile/README.md).
+  Until the repos move from the llm-port org, links point there; GitHub redirects them
+  after the transfer. Then switch them to github.com/fadenstack/... and restore the
+  Guide and Website links below. Banner source: brand/github-profile/banner.html.
 -->
 
 <p align="center">
@@ -21,11 +21,13 @@
 </p>
 
 <p align="center">
-  <a href="https://github.com/fadenstack/fadenstack/blob/main/docs/installing.md"><b>Install</b></a> ·
-  <a href="https://github.com/fadenstack/fadenstack/tree/main/docs">Guide</a> ·
-  <a href="https://github.com/fadenstack/fadenstack">Core repo</a> ·
-  <a href="https://fadenstack.com">Website</a>
-  <!-- · <a href="https://demo.fadenstack.com">Live demo</a>   (once the demo instance is up) -->
+  <a href="#quick-start"><b>Quick start</b></a> ·
+  <a href="https://github.com/llm-port/llm-port-core">Core repo</a> ·
+  <a href="https://emagin8.de/contact?subject=Fadenstack">Contact</a>
+  <!-- Once live:
+  · <a href="https://fadenstack.com/docs/">Guide</a>
+  · <a href="https://fadenstack.com">Website</a>
+  · <a href="https://demo.fadenstack.com">Live demo</a> -->
 </p>
 
 <p align="center">
@@ -151,10 +153,12 @@ flowchart TB
 
 | Repository | What it is |
 |---|---|
-| **[fadenstack](https://github.com/fadenstack/fadenstack)** | The platform: gateway, chat, console and control plane, PII service, MCP and skills registries, CLI and node agent. |
-| **[mcp-server-brave](https://github.com/fadenstack/mcp-server-brave)** | Brave Search as MCP tools, for web and local search. |
-| **[mcp-server-searxng](https://github.com/fadenstack/mcp-server-searxng)** | Web search through your own SearXNG, with SearXNG and the MCP server in one container. |
-| **[mcp-server-webscraper](https://github.com/fadenstack/mcp-server-webscraper)** | Turns web pages into compact, model-ready text or Markdown. |
+| **[fadenstack](https://github.com/llm-port/llm-port-core)** | The platform: gateway, chat, console and control plane, PII service, MCP and skills registries, CLI and node agent. |
+| **[mcp-server-brave](https://github.com/llm-port/mcp-server-brave)** | Brave Search as MCP tools, for web and local search. |
+| **[mcp-server-searxng](https://github.com/llm-port/mcp-server-searxng)** | Web search through your own SearXNG, with SearXNG and the MCP server in one container. |
+| **[mcp-server-webscraper](https://github.com/llm-port/mcp-server-webscraper)** | Turns web pages into compact, model-ready text or Markdown. |
+
+The repositories are moving over from the [llm-port](https://github.com/llm-port) organization, where the core is still called `llm-port-core`. Until then, the links open them there.
 
 <!--
   Add these rows as each repository becomes public:
@@ -177,13 +181,11 @@ The expression goes back to Goethe's *Die Wahlverwandtschaften* (*Elective Affin
 
 **Fadenstack** is that thread through your organization's AI. Chat assistants, agents, data, models, tools and infrastructure are connected once, governed in one place, and traceable end to end.
 
-
-
 **Every model. Every source. One thread.**
 
 ## Community and Enterprise
 
-The core is **Apache 2.0** and always will be. Enterprise adds what regulated teams ask for, on the same platform: single sign-on, advanced PII tokenisation, governance and support with an SLA. [Get in touch →](https://emagin8.de/contact?subject=Fadenstack)
+The core is open source under **Apache 2.0**. Enterprise adds what regulated teams ask for, on the same platform: single sign-on, advanced PII tokenisation, governance and support with an SLA. [Get in touch →](https://emagin8.de/contact?subject=Fadenstack)
 
 Issues, ideas and pull requests are welcome in each repository.
 
