@@ -171,9 +171,13 @@ flowchart TB
 &nbsp;→&nbsp;
 <picture><source media="(prefers-color-scheme: dark)" srcset="./f-dark.svg"><img src="./f-light.svg" width="44" alt="The mark seen from the front: the letter F"></picture>
 
-In German, *der rote Faden* (the red thread) is the theme that runs through a story and holds it together. Goethe borrowed the image from the Royal Navy, which spun a single red yarn through every rope in the fleet so that any piece could be traced. Fadenstack is that thread through your organization's AI. Chat, agents, data and models are connected once, governed in one place, and traceable end to end.
+In German, *der rote Faden* (the red thread) is the guiding idea that runs through something and holds it together as a whole.
 
-The middle plate of the mark is the thread. Seen from the front, the three plates are an F.
+The expression goes back to Goethe's *Die Wahlverwandtschaften* (*Elective Affinities*, 1809). Goethe describes a red thread woven through every rope of the English Royal Navy. It could not be pulled out without unravelling the rope, and even a small piece could still be recognized as belonging to the Crown. He used the image for a thread that connects the whole and gives it coherence.
+
+**Fadenstack** is that thread through your organization's AI. Chat assistants, agents, data, models, tools and infrastructure are connected once, governed in one place, and traceable end to end.
+
+
 
 **Every model. Every source. One thread.**
 
