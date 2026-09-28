@@ -1,6 +1,6 @@
 <!--
   Organisation profile README (github.com/fadenstack/.github, profile/README.md).
-  Licences and repo plan follow llm-port-dev/rename/README.md. Until fadenstack/fadenstack and
+  Repo links follow llm-port-dev/rename/README.md. Until fadenstack/fadenstack and
   the other repos are published here, links point to the llm-port repos (to be archived, not
   transferred). Switch them then, restore the Guide/Website links, and drop the 0.4.0 note in
   Quick start once it is released. Banner source: brand/github-profile/banner.html.
@@ -32,7 +32,7 @@
 </p>
 
 <p align="center">
-  <img alt="Licence: AGPL-3.0 for the server, Apache-2.0 for the CLI, agent, SDKs and MCP servers" src="https://img.shields.io/badge/licence-AGPL--3.0%20%C2%B7%20Apache--2.0-486A91?style=flat-square&labelColor=0A0E1A">
+  <img alt="Licence: Apache-2.0" src="https://img.shields.io/badge/licence-Apache--2.0-486A91?style=flat-square&labelColor=0A0E1A">
   <img alt="Self-hosted" src="https://img.shields.io/badge/runs%20on-your%20hardware-486A91?style=flat-square&labelColor=0A0E1A">
   <img alt="API: OpenAI-compatible" src="https://img.shields.io/badge/API-OpenAI--compatible-486A91?style=flat-square&labelColor=0A0E1A">
   <img alt="Console in English, German, Français, Spanish and Chinese" src="https://img.shields.io/badge/console-EN%20%C2%B7%20DE%20%C2%B7%20ES%20%C2%B7%20%E4%B8%AD%E6%96%87-486A91?style=flat-square&labelColor=0A0E1A">
@@ -156,7 +156,7 @@ flowchart TB
 
 | Repository | What it is |
 |---|---|
-| **[fadenstack](https://github.com/llm-port/llm-port-core)** | The platform: gateway, chat, console and control plane, PII service, MCP and skills registries (AGPL-3.0), plus the CLI and the node agent (Apache-2.0). |
+| **[fadenstack](https://github.com/llm-port/llm-port-core)** | The platform: gateway, chat, console and control plane, PII service, MCP and skills registries, plus the CLI and the node agent. Apache-2.0. |
 | **[mcp-server-brave](https://github.com/llm-port/mcp-server-brave)** | Brave Search as MCP tools, for web and local search. Apache-2.0. |
 | **[mcp-server-searxng](https://github.com/llm-port/mcp-server-searxng)** | Web search through your own SearXNG, with SearXNG and the MCP server in one container. Apache-2.0. |
 | **[mcp-server-webscraper](https://github.com/llm-port/mcp-server-webscraper)** | Turns web pages into compact, model-ready text or Markdown. Apache-2.0. |
@@ -188,13 +188,13 @@ The expression goes back to Goethe's *Die Wahlverwandtschaften* (*Elective Affin
 
 ## Community and Enterprise
 
-The Fadenstack server is open source under the **GNU AGPL-3.0**. The CLI, the node agent, the SDKs and the MCP servers are **Apache-2.0**. Your own apps, agents and tools that use Fadenstack through its API are not affected by the AGPL. If your organization can't use AGPL software, a commercial licence is available.
+The Fadenstack server is open source under **Apache-2.0**. The CLI, the node agent, the SDKs and the MCP servers are **Apache-2.0**.
 
 Enterprise adds what regulated teams ask for, on the same platform: single sign-on, advanced PII tokenisation, governance and support with an SLA. [Get in touch →](https://emagin8.de/contact?subject=Fadenstack)
 
 Issues, ideas and pull requests are welcome in each repository.
 
-Fadenstack runs several upstream open-source services in their own containers, and each keeps its own licence. See [THIRD_PARTY_NOTICES.md](./THIRD_PARTY_NOTICES.md).
+Fadenstack runs several upstream open-source services in their own containers, and each keeps its own licence. See [THIRD_PARTY_NOTICES.md](https://github.com/fadenstack/.github/blob/main/profile/THIRD_PARTY_NOTICES.md).
 
 ---
 

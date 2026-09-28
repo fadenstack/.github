@@ -263,9 +263,9 @@ These libraries are bundled into Fadenstack service images at build time.
 
 ## Fadenstack components
 
-Images built from this repository (e.g., `llm-port-api`, `llm-port-backend`, `llm-port-rag`,
-`llm-port-pii`, `llm-port-mailer`, `llm-port-auth`, `llm-port-docling`, `llm-port-frontend`)
-are licensed under the Fadenstack project license (see `LICENSE` in this repository).
+Images built from the Fadenstack core repository contain Fadenstack-authored code
+under Apache-2.0. Third-party packages and base images retain their own terms.
+Published release SBOMs provide the component inventory for each artifact.
 
 ---
 
