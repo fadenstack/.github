@@ -35,7 +35,7 @@
   <img alt="Licence: AGPL-3.0 for the server, Apache-2.0 for the CLI, agent, SDKs and MCP servers" src="https://img.shields.io/badge/licence-AGPL--3.0%20%C2%B7%20Apache--2.0-486A91?style=flat-square&labelColor=0A0E1A">
   <img alt="Self-hosted" src="https://img.shields.io/badge/runs%20on-your%20hardware-486A91?style=flat-square&labelColor=0A0E1A">
   <img alt="API: OpenAI-compatible" src="https://img.shields.io/badge/API-OpenAI--compatible-486A91?style=flat-square&labelColor=0A0E1A">
-  <img alt="Console in English, German, Spanish and Chinese" src="https://img.shields.io/badge/console-EN%20%C2%B7%20DE%20%C2%B7%20ES%20%C2%B7%20%E4%B8%AD%E6%96%87-486A91?style=flat-square&labelColor=0A0E1A">
+  <img alt="Console in English, German, Français, Spanish and Chinese" src="https://img.shields.io/badge/console-EN%20%C2%B7%20DE%20%C2%B7%20ES%20%C2%B7%20%E4%B8%AD%E6%96%87-486A91?style=flat-square&labelColor=0A0E1A">
 </p>
 
 ---
@@ -44,10 +44,12 @@ Large companies have whole departments building their AI platform. One team runs
 
 **Fadenstack gives your IT team all of it as one system,** installed on your own servers and run from one console.
 
+**Fadenstack** was called [LLM.Port](https://llm-port.github.io/) until release 0.3. The llm-port organization stays as the archive of that line.
+
 ## What each part of your organization gets
 
 **Everyone: a chat assistant on your own models.**
-It works like ChatGPT, with your documents, your team's shared skills and the tools IT has connected. It speaks English, Deutsch, Español and 中文.
+It works like ChatGPT, with your documents, your team's shared skills and the tools IT has connected. It speaks English, Deutsch, Français, Español and 中文.
 
 **Developers: one endpoint and an SDK for agents.**
 An OpenAI-compatible `/v1`, plus SDKs for Python and .NET that add sessions, memory, tools and attachments to the OpenAI SDKs. Through that one endpoint, every agent gets the organization's skills, knowledge and tools, and it can bring tools of its own that run on the user's machine. It follows the same rules as the chat.
