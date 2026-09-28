@@ -35,7 +35,7 @@
   <img alt="Licence: Apache-2.0" src="https://img.shields.io/badge/licence-Apache--2.0-486A91?style=flat-square&labelColor=0A0E1A">
   <img alt="Self-hosted" src="https://img.shields.io/badge/runs%20on-your%20hardware-486A91?style=flat-square&labelColor=0A0E1A">
   <img alt="API: OpenAI-compatible" src="https://img.shields.io/badge/API-OpenAI--compatible-486A91?style=flat-square&labelColor=0A0E1A">
-  <img alt="Console in English, German, Français, Spanish and Chinese" src="https://img.shields.io/badge/console-EN%20%C2%B7%20DE%20%C2%B7%20ES%20%C2%B7%20%E4%B8%AD%E6%96%87-486A91?style=flat-square&labelColor=0A0E1A">
+  <img alt="Console in English, German, Français, Spanish and Chinese" src="https://img.shields.io/badge/console-EN%20%C2%B7%20DE%20%C2%B7%20FR%20%C2%B7%20ES%20%C2%B7%20%E4%B8%AD%E6%96%87-486A91?style=flat-square&labelColor=0A0E1A">
 </p>
 
 ---
@@ -198,4 +198,4 @@ Fadenstack runs several upstream open-source services in their own containers, a
 
 ---
 
-<p align="center"><sub>Built in Germany by <a href="https://emagin8.de">Emagin8</a> · English · Deutsch · Español · 中文</sub></p>
+<p align="center"><sub>Built in Germany by <a href="https://emagin8.de">Emagin8</a> · English · Deutsch · Français · Español · 中文</sub></p>
