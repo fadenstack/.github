@@ -52,13 +52,13 @@ Large companies have whole departments building their AI platform. One team runs
 It works like ChatGPT, with your documents, your team's shared skills and the tools IT has connected. It speaks English, Deutsch, Français, Español and 中文.
 
 **Developers: one endpoint and an SDK for agents.**
-An OpenAI-compatible `/v1`, plus SDKs for Python and .NET that add sessions, memory, tools and attachments to the OpenAI SDKs. Through that one endpoint, every agent gets the organization's skills, knowledge and tools, and it can bring tools of its own that run on the user's machine. It follows the same rules as the chat.
+An OpenAI-compatible `/v1`, plus open-source SDKs for .NET and TypeScript that build agents into other software: tools that act on the open document or page, approvals, sessions kept on the device, and a ready chat panel. Through that one endpoint, every agent gets the organization's skills, knowledge and tools, and it can bring tools of its own that run on the user's machine. It follows the same rules as the chat.
 
 **IT: one console for all of it.**
 Users and roles, models and GPU machines, skills, MCP servers, PII rules, usage per team, traces and the audit log.
 
 **Data protection: rules that hold everywhere.**
-Personal data is redacted before any model sees it, and every answer records where it was computed.
+Personal data is redacted by your policy before a model sees it, and every answer records where it was computed.
 
 ## One system instead of many
 
@@ -68,7 +68,7 @@ Personal data is redacted before any model sees it, and every answer records whe
 | **Apps and agents** | Every project wires up its own API keys | One endpoint and one SDK, with the same rules for all |
 | **Know-how** | Prompts copied between documents and chats | Shared, versioned skills, with a record of which one was used |
 | **Agent tools** | Every agent wired to every system on its own | MCP servers registered once, used by every agent that's allowed to |
-| **Personal data** | A policy document, and hope | Redacted before any model sees it |
+| **Personal data** | A policy document, and hope | Redacted by your policy before a model sees it |
 | **Models and GPUs** | A GPU server someone set up once | Machines, clusters and models, run from the console |
 | **Oversight** | Separate bills and no audit trail | Usage, cost and audit per request, in one place |
 
@@ -80,9 +80,9 @@ Every chat and every agent draws on the same three things, and IT manages each o
 - **Knowledge: what it knows.** Your documents, searched by the model itself, with the source named.
 - **Tools: what it can do.** MCP servers are registered once on the server: hosted ones such as GitHub's, or your own in containers. Every agent that is allowed can call them. Agents can also bring local tools, like the open Word document or files on the user's machine, which run on the user's side. Each session's policy decides where tools run: on the server, locally, or both.
 
-## Coming next: agents in Office
+## Agents in Chrome and Office
 
-Assistants for Word, Excel and Outlook, built on the Fadenstack .NET SDK. They get the organization's skills, knowledge and MCP tools, add local tools for the document you have open, and follow the same PII rules and audit trail as the chat. *In development.*
+Assistants for Chrome, Word, Excel, PowerPoint and Outlook, built on the Fadenstack SDKs and free to use. They get the organization's skills, knowledge and MCP tools, add local tools for the page or document you have open, ask before they change anything, and follow the same PII rules and audit trail as the chat. They come with the next release.
 
 ## Quick start
 
@@ -115,8 +115,8 @@ Already running vLLM? Fadenstack finds the containers on your machines and puts 
 flowchart TB
   subgraph people ["People and apps"]
     chat[Chat for everyone]
-    office["Office add-ins<br/>in development"]
-    sdk["Your apps and agents<br/>Python and .NET SDK"]
+    office["Agents in Chrome and Office"]
+    sdk["Your apps and agents<br/>.NET and TypeScript SDKs"]
     local[["Local tools of each agent<br/>open document · files · desktop apps"]]
   end
   subgraph fs ["Fadenstack · one system, run by your IT"]
@@ -165,8 +165,7 @@ Fadenstack continues the llm.port project under a new name. Until its repositori
 
 <!--
   Add these rows as each repository becomes public:
-| **fadenstack-python** · **fadenstack-dotnet** | SDKs for apps and agents (`faden`, `Faden.Client`): the OpenAI SDKs plus sessions, memory, tools and attachments. Apache-2.0. |
-| **fadenstack-office** | Agents for Word, Excel and Outlook, built on the .NET SDK. |
+| **fadenstack-sdk-dotnet** · **fadenstack-sdk-typescript** | SDKs for agents in other software (`Faden.Client`, `@fadenstack/client`): tools, approvals, sessions on the device and a chat panel. Apache-2.0. |
 | **fadenstack-rag** | The retrieval engine: vector, keyword and hybrid search over your documents and file servers. |
 | **fadenstack-docling** | Rich document extraction (tables, images, pages) feeding the knowledge base. |
 | **fadenstack-auth** · **fadenstack-mailer** | Single sign-on and mail delivery services. |
@@ -188,11 +187,11 @@ The expression goes back to Goethe's *Die Wahlverwandtschaften* (*Elective Affin
 
 ## Community and Enterprise
 
-The Fadenstack server is open source under **Apache-2.0**. The CLI, the node agent, the SDKs and the MCP servers are **Apache-2.0**.
+The Fadenstack server is open source under **Apache-2.0**. The CLI, the node agent, the SDKs and the MCP servers are **Apache-2.0**. The agents for Chrome and Office are free to use with any Fadenstack server, but not open source.
 
-Enterprise adds what regulated teams ask for, on the same platform: single sign-on, advanced PII tokenisation, governance and support with an SLA. [Get in touch →](https://emagin8.de/contact?subject=Fadenstack)
+Enterprise is planned and adds what regulated teams ask for, on the same platform: single sign-on, content policies on prompts, answers and tool calls, limits on what each agent's tools may do, an auditor's view with exports, and support with an SLA. Planned features may change. [Get in touch →](https://emagin8.de/contact?subject=Fadenstack)
 
-Issues, ideas and pull requests are welcome in each repository.
+Issues and ideas are welcome in each repository. Please open an issue before you send a pull request.
 
 Fadenstack runs several upstream open-source services in their own containers, and each keeps its own licence. See [THIRD_PARTY_NOTICES.md](https://github.com/fadenstack/.github/blob/main/profile/THIRD_PARTY_NOTICES.md).
 
